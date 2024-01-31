@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790EAB1D2B6AC2190067DAA0 /* swift_ios_micApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790EAB1C2B6AC2190067DAA0 /* swift_ios_micApp.swift */; };
+		790EAB1F2B6AC2190067DAA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790EAB1E2B6AC2190067DAA0 /* ContentView.swift */; };
+		790EAB212B6AC21B0067DAA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790EAB202B6AC21B0067DAA0 /* Assets.xcassets */; };
+		790EAB242B6AC21B0067DAA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790EAB232B6AC21B0067DAA0 /* Preview Assets.xcassets */; };
+		790EAB2E2B6AC21B0067DAA0 /* swift_ios_micTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790EAB2D2B6AC21B0067DAA0 /* swift_ios_micTests.swift */; };
+		790EAB382B6AC21B0067DAA0 /* swift_ios_micUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790EAB372B6AC21B0067DAA0 /* swift_ios_micUITests.swift */; };
+		790EAB3A2B6AC21B0067DAA0 /* swift_ios_micUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790EAB392B6AC21B0067DAA0 /* swift_ios_micUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		790EAB2A2B6AC21B0067DAA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 790EAB112B6AC2190067DAA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 790EAB182B6AC2190067DAA0;
+			remoteInfo = "swift-ios-mic";
+		};
+		790EAB342B6AC21B0067DAA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 790EAB112B6AC2190067DAA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 790EAB182B6AC2190067DAA0;
+			remoteInfo = "swift-ios-mic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		790EAB192B6AC2190067DAA0 /* swift-ios-mic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-ios-mic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		790EAB1C2B6AC2190067DAA0 /* swift_ios_micApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_ios_micApp.swift; sourceTree = "<group>"; };
+		790EAB1E2B6AC2190067DAA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		790EAB202B6AC21B0067DAA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		790EAB232B6AC21B0067DAA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		790EAB292B6AC21B0067DAA0 /* swift-ios-micTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-ios-micTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		790EAB2D2B6AC21B0067DAA0 /* swift_ios_micTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_ios_micTests.swift; sourceTree = "<group>"; };
+		790EAB332B6AC21B0067DAA0 /* swift-ios-micUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-ios-micUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		790EAB372B6AC21B0067DAA0 /* swift_ios_micUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_ios_micUITests.swift; sourceTree = "<group>"; };
+		790EAB392B6AC21B0067DAA0 /* swift_ios_micUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_ios_micUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		790EAB162B6AC2190067DAA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790EAB262B6AC21B0067DAA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790EAB302B6AC21B0067DAA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		790EAB102B6AC2190067DAA0 = {
+			isa = PBXGroup;
+			children = (
+				790EAB1B2B6AC2190067DAA0 /* swift-ios-mic */,
+				790EAB2C2B6AC21B0067DAA0 /* swift-ios-micTests */,
+				790EAB362B6AC21B0067DAA0 /* swift-ios-micUITests */,
+				790EAB1A2B6AC2190067DAA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		790EAB1A2B6AC2190067DAA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				790EAB192B6AC2190067DAA0 /* swift-ios-mic.app */,
+				790EAB292B6AC21B0067DAA0 /* swift-ios-micTests.xctest */,
+				790EAB332B6AC21B0067DAA0 /* swift-ios-micUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		790EAB1B2B6AC2190067DAA0 /* swift-ios-mic */ = {
+			isa = PBXGroup;
+			children = (
+				790EAB1C2B6AC2190067DAA0 /* swift_ios_micApp.swift */,
+				790EAB1E2B6AC2190067DAA0 /* ContentView.swift */,
+				790EAB202B6AC21B0067DAA0 /* Assets.xcassets */,
+				790EAB222B6AC21B0067DAA0 /* Preview Content */,
+			);
+			path = "swift-ios-mic";
+			sourceTree = "<group>";
+		};
+		790EAB222B6AC21B0067DAA0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				790EAB232B6AC21B0067DAA0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		790EAB2C2B6AC21B0067DAA0 /* swift-ios-micTests */ = {
+			isa = PBXGroup;
+			children = (
+				790EAB2D2B6AC21B0067DAA0 /* swift_ios_micTests.swift */,
+			);
+			path = "swift-ios-micTests";
+			sourceTree = "<group>";
+		};
+		790EAB362B6AC21B0067DAA0 /* swift-ios-micUITests */ = {
+			isa = PBXGroup;
+			children = (
+				790EAB372B6AC21B0067DAA0 /* swift_ios_micUITests.swift */,
+				790EAB392B6AC21B0067DAA0 /* swift_ios_micUITestsLaunchTests.swift */,
+			);
+			path = "swift-ios-micUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		790EAB182B6AC2190067DAA0 /* swift-ios-mic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790EAB3D2B6AC21B0067DAA0 /* Build configuration list for PBXNativeTarget "swift-ios-mic" */;
+			buildPhases = (
+				790EAB152B6AC2190067DAA0 /* Sources */,
+				790EAB162B6AC2190067DAA0 /* Frameworks */,
+				790EAB172B6AC2190067DAA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-ios-mic";
+			productName = "swift-ios-mic";
+			productReference = 790EAB192B6AC2190067DAA0 /* swift-ios-mic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		790EAB282B6AC21B0067DAA0 /* swift-ios-micTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790EAB402B6AC21B0067DAA0 /* Build configuration list for PBXNativeTarget "swift-ios-micTests" */;
+			buildPhases = (
+				790EAB252B6AC21B0067DAA0 /* Sources */,
+				790EAB262B6AC21B0067DAA0 /* Frameworks */,
+				790EAB272B6AC21B0067DAA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				790EAB2B2B6AC21B0067DAA0 /* PBXTargetDependency */,
+			);
+			name = "swift-ios-micTests";
+			productName = "swift-ios-micTests";
+			productReference = 790EAB292B6AC21B0067DAA0 /* swift-ios-micTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		790EAB322B6AC21B0067DAA0 /* swift-ios-micUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790EAB432B6AC21B0067DAA0 /* Build configuration list for PBXNativeTarget "swift-ios-micUITests" */;
+			buildPhases = (
+				790EAB2F2B6AC21B0067DAA0 /* Sources */,
+				790EAB302B6AC21B0067DAA0 /* Frameworks */,
+				790EAB312B6AC21B0067DAA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				790EAB352B6AC21B0067DAA0 /* PBXTargetDependency */,
+			);
+			name = "swift-ios-micUITests";
+			productName = "swift-ios-micUITests";
+			productReference = 790EAB332B6AC21B0067DAA0 /* swift-ios-micUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		790EAB112B6AC2190067DAA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					790EAB182B6AC2190067DAA0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					790EAB282B6AC21B0067DAA0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 790EAB182B6AC2190067DAA0;
+					};
+					790EAB322B6AC21B0067DAA0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 790EAB182B6AC2190067DAA0;
+					};
+				};
+			};
+			buildConfigurationList = 790EAB142B6AC2190067DAA0 /* Build configuration list for PBXProject "swift-ios-mic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 790EAB102B6AC2190067DAA0;
+			productRefGroup = 790EAB1A2B6AC2190067DAA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				790EAB182B6AC2190067DAA0 /* swift-ios-mic */,
+				790EAB282B6AC21B0067DAA0 /* swift-ios-micTests */,
+				790EAB322B6AC21B0067DAA0 /* swift-ios-micUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		790EAB172B6AC2190067DAA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790EAB242B6AC21B0067DAA0 /* Preview Assets.xcassets in Resources */,
+				790EAB212B6AC21B0067DAA0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790EAB272B6AC21B0067DAA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790EAB312B6AC21B0067DAA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		790EAB152B6AC2190067DAA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790EAB1F2B6AC2190067DAA0 /* ContentView.swift in Sources */,
+				790EAB1D2B6AC2190067DAA0 /* swift_ios_micApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790EAB252B6AC21B0067DAA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790EAB2E2B6AC21B0067DAA0 /* swift_ios_micTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790EAB2F2B6AC21B0067DAA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790EAB3A2B6AC21B0067DAA0 /* swift_ios_micUITestsLaunchTests.swift in Sources */,
+				790EAB382B6AC21B0067DAA0 /* swift_ios_micUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		790EAB2B2B6AC21B0067DAA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 790EAB182B6AC2190067DAA0 /* swift-ios-mic */;
+			targetProxy = 790EAB2A2B6AC21B0067DAA0 /* PBXContainerItemProxy */;
+		};
+		790EAB352B6AC21B0067DAA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 790EAB182B6AC2190067DAA0 /* swift-ios-mic */;
+			targetProxy = 790EAB342B6AC21B0067DAA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		790EAB3B2B6AC21B0067DAA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		790EAB3C2B6AC21B0067DAA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		790EAB3E2B6AC21B0067DAA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swift-ios-mic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cwarner.swift-ios-mic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		790EAB3F2B6AC21B0067DAA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swift-ios-mic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cwarner.swift-ios-mic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		790EAB412B6AC21B0067DAA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cwarner.swift-ios-micTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-ios-mic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swift-ios-mic";
+			};
+			name = Debug;
+		};
+		790EAB422B6AC21B0067DAA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cwarner.swift-ios-micTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-ios-mic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swift-ios-mic";
+			};
+			name = Release;
+		};
+		790EAB442B6AC21B0067DAA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cwarner.swift-ios-micUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swift-ios-mic";
+			};
+			name = Debug;
+		};
+		790EAB452B6AC21B0067DAA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cwarner.swift-ios-micUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swift-ios-mic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		790EAB142B6AC2190067DAA0 /* Build configuration list for PBXProject "swift-ios-mic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790EAB3B2B6AC21B0067DAA0 /* Debug */,
+				790EAB3C2B6AC21B0067DAA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790EAB3D2B6AC21B0067DAA0 /* Build configuration list for PBXNativeTarget "swift-ios-mic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790EAB3E2B6AC21B0067DAA0 /* Debug */,
+				790EAB3F2B6AC21B0067DAA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790EAB402B6AC21B0067DAA0 /* Build configuration list for PBXNativeTarget "swift-ios-micTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790EAB412B6AC21B0067DAA0 /* Debug */,
+				790EAB422B6AC21B0067DAA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790EAB432B6AC21B0067DAA0 /* Build configuration list for PBXNativeTarget "swift-ios-micUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790EAB442B6AC21B0067DAA0 /* Debug */,
+				790EAB452B6AC21B0067DAA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 790EAB112B6AC2190067DAA0 /* Project object */;
+}
