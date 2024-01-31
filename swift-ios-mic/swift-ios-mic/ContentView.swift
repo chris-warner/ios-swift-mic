@@ -28,7 +28,6 @@ struct ContentView: View {
         }
     }
 
-
     func setUpCaptureSession() async {
         guard await isAuthorized else { return }
         // Set up the capture session.
@@ -51,6 +50,7 @@ struct ContentView: View {
         }
         .padding()
     }
+    
     func startMic() async {
         if (micStatus) {
             print("Mic Stopped")
