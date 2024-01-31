@@ -14,6 +14,8 @@
 		790EAB2E2B6AC21B0067DAA0 /* swift_ios_micTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790EAB2D2B6AC21B0067DAA0 /* swift_ios_micTests.swift */; };
 		790EAB382B6AC21B0067DAA0 /* swift_ios_micUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790EAB372B6AC21B0067DAA0 /* swift_ios_micUITests.swift */; };
 		790EAB3A2B6AC21B0067DAA0 /* swift_ios_micUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790EAB392B6AC21B0067DAA0 /* swift_ios_micUITestsLaunchTests.swift */; };
+		790EAB492B6ACA170067DAA0 /* libswiftAVFoundation.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 790EAB482B6ACA0F0067DAA0 /* libswiftAVFoundation.tbd */; };
+		790EAB4A2B6ACA1B0067DAA0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790EAB472B6ACA0F0067DAA0 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		790EAB332B6AC21B0067DAA0 /* swift-ios-micUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-ios-micUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		790EAB372B6AC21B0067DAA0 /* swift_ios_micUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_ios_micUITests.swift; sourceTree = "<group>"; };
 		790EAB392B6AC21B0067DAA0 /* swift_ios_micUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_ios_micUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		790EAB472B6ACA0F0067DAA0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		790EAB482B6ACA0F0067DAA0 /* libswiftAVFoundation.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftAVFoundation.tbd; path = usr/lib/swift/libswiftAVFoundation.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				790EAB4A2B6ACA1B0067DAA0 /* AVFoundation.framework in Frameworks */,
+				790EAB492B6ACA170067DAA0 /* libswiftAVFoundation.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,7 @@
 				790EAB2C2B6AC21B0067DAA0 /* swift-ios-micTests */,
 				790EAB362B6AC21B0067DAA0 /* swift-ios-micUITests */,
 				790EAB1A2B6AC2190067DAA0 /* Products */,
+				790EAB462B6ACA0F0067DAA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,15 @@
 				790EAB392B6AC21B0067DAA0 /* swift_ios_micUITestsLaunchTests.swift */,
 			);
 			path = "swift-ios-micUITests";
+			sourceTree = "<group>";
+		};
+		790EAB462B6ACA0F0067DAA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				790EAB472B6ACA0F0067DAA0 /* AVFoundation.framework */,
+				790EAB482B6ACA0F0067DAA0 /* libswiftAVFoundation.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,6 +449,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "cwarner.swift-ios-mic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -460,6 +480,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "cwarner.swift-ios-mic";
