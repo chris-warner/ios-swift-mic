@@ -8,6 +8,15 @@
         "revision" : "b2dbaed8cd38077092b6b6e311699ddf5d94dbd7",
         "version" : "5.6.3"
       }
+    },
+    {
+      "identity" : "audiokitex",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AudioKit/AudioKitEX.git",
+      "state" : {
+        "revision" : "58fa4a002028a2addf96466dd5ad68182e7d387e",
+        "version" : "5.6.0"
+      }
     }
   ],
   "version" : 2

@@ -1,17 +1,28 @@
-//
-//  swift_ios_micApp.swift
-//  swift-ios-mic
-//
-//  Created by christopher.warner on 1/31/24.
-//
+// Copyright AudioKit. All Rights Reserved.
 
+import AudioKit
+import AVFoundation
 import SwiftUI
 
 @main
 struct swift_ios_micApp: App {
+    init() {
+        #if os(iOS)
+            do {
+                Settings.bufferLength = .short
+                try AVAudioSession.sharedInstance().setPreferredIOBufferDuration(Settings.bufferLength.duration)
+                try AVAudioSession.sharedInstance().setCategory(.playAndRecord,
+                                                                options: [.defaultToSpeaker, .mixWithOthers, .allowBluetoothA2DP])
+                try AVAudioSession.sharedInstance().setActive(true)
+            } catch let err {
+                print(err)
+            }
+        #endif
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecorderView()
         }
     }
 }
