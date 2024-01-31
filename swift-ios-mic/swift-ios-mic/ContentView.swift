@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     @State var micStatus = false;
+    @State var micStatusText = "Start Mic";
+
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -17,8 +19,8 @@ struct ContentView: View {
             Text("Real Time Mic")
         }
         VStack {
-            Button("Start Mic") {
-                self.startMic();
+            Button(micStatusText) {
+                startMic();
             }
         }
         .padding()
@@ -27,9 +29,11 @@ struct ContentView: View {
         if (micStatus) {
             print("Mic Stopped")
             micStatus = false;
+            micStatusText = "Start Mic"
         } else {
             print("Mic Started")
             micStatus = true;
+            micStatusText = "Stop Mic"
         }
     }
 }
